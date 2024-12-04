@@ -1,6 +1,6 @@
 # Movie Night
 
-<img src="screenshots/home-page.png" alt="App Screenshot" width="600">
+<img src="screenshots/home-page.png" alt="App Screenshot" width="200">
 
 ## Table of Contents
 
