@@ -1,0 +1,55 @@
+name: movie_night
+description: "What do you want to watch tonight? Let's decide together!"
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.2.2
+  shared_preferences: ^2.3.3
+  platform_device_id: ^1.0.1
+  flutter_native_splash: ^2.4.3
+  flutter_launcher_icons: ^0.14.1
+  swipe_cards: ^2.0.0
+  collection: ^1.15.0
+  intl: ^0.18.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "assets/images/icon.png"
+  ios: true
+
+flutter_native_splash:
+  image: "assets/images/splash.png"
+  color: "0D253F"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/default_poster.png
+    - assets/images/icon.png
+    - assets/images/splash.png
+
+  fonts:
+    - family: Protest Revolution
+      fonts:
+        - asset: fonts/ProtestRevolution-Regular.ttf
+
+    - family: Inter
+      fonts:
+        - asset: fonts/Inter_18pt-Black.ttf
+        - asset: fonts/Inter_18pt-Bold.ttf
+        - asset: fonts/Inter_18pt-Medium.ttf
+        - asset: fonts/Inter_18pt-Regular.ttf
+        - asset: fonts/Inter_18pt-SemiBold.ttf
+        - asset: fonts/Inter_18pt-Italic.ttf
