@@ -1,6 +1,6 @@
 # Movie Night
 
-![App Screenshot](screenshots/home-page.png)
+<img src="screenshots/home-page.png" alt="App Screenshot" width="600">
 
 ## Table of Contents
 
